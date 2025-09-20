@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app) 
 
 def get_analysis_from_gemini(article_text: str):
-    api_key = os.getenv("GOOGLE_API_KEY")
+    api_key = os.getenv("GOOGLE_API_KEY")a
     if not api_key:
         raise ValueError("Error: GOOGLE_API_KEY environment variable not set.")
     genai.configure(api_key=api_key)
