@@ -6,3 +6,4 @@ google-generativeai
 newspaper3k
 gunicorn
 lxml
+lxml_html_clean
